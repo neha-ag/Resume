@@ -1,0 +1,88 @@
+     
+
+NEHA AGRAWAL
+                                                 nehagrawal.nsit@gmail.com  |  412-877-4764  |   Redmond, WA
+
+OBJECTIVE	Seeking full time opportunities in System software or software development that will utilize my experience in developing drivers and applications for high performance Windows/Linux/Android devices. 
+EDUCATION	Masters in Electrical and Computer Engineering,   GPA: 3.79/4                                        Aug, 2009- Dec, 2010
+5000 Forbes Avenue, Pittsburgh, PA-15213
+Carnegie Mellon University (CMU), Pittsburgh, USA    
+
+B.E. in Computer Engineering,                 GPA: 3.60/4                                                                          2004- 2008
+Azad hind Fauj Marg, Sector 3, Dwarka, New Delhi – 110078, India
+Netaji Subhas Institute of Technology (NSIT), Delhi, India                    
+   
+WORK EXPERIENCE
+	NVIDIA Corporation, Redmond, WA
+11431 Willows Rd NE, Redmond, WA 98052
+Senior Systems Software Engineer                                                                                     Nov 2014 – Oct 2017
+*  OTA Software Development and Architecture – Autonomous Driving
+       -      Over the Air Update for Nvidia’s Drive Platform
+Helped design, architect and develop the entire OTA tool, to enable developers update their platform without connecting to the PC. Added provision for full or partial system update including firmware update for various configurations involving Native Linux, Hypervisor and Linux VM’s. The tool worked closely with flashing and image generation tool to develop OTA packages for release builds. Its main features were
+- generate OTA packages for various configs with appropriate metadata and package name 
+- publish it on the server hosting the OTA packages and maintain version information
+- download, validate and install the update after booting in recovery boot-chain.
+             This greatly helped reduce the development and testing time for developers to test their changes on top of                   
+              trunk release builds.
+  * Flashing - Nvidia’s Drive Platform ** 
+-	Bootburn - Helped updating the flashing tool to support parallel flash, flash recovery images, generate config files for additional platforms for various configurations involving Native linux as well Hypervisor configurations supporting 1or 2 VM’s
+-	Flashing Kernel - Involved in Flashing kernel update
+* Tablet Software Development – Android **
+-	Platform Power Measurement Lead for Nvidia’s 1st Shield Table ST8
+-	Developed and scripted various use-cases for automated power measurement through an in-house power measurement tool Powersnap. Used it to generate power reports for several use-cases for every release build which gave the management a good view of power usage in various scenarios, bechmarks and identify regressions if any.
+-	Profiled Sleep behavior and analyzed suspend, resume and active times power usage, identified top LP0 wake time consumers and got them fixed reducing the suspend/resume times. Saved 135mW of CPU wake power by lowering CPU frequency within agreeable limits. Helped bring down wifi ping wake power, direct touch power regression – touch boost, and GPU power during powered off charging.
+-	Developed a Wakelock Monitor Design to analyze the wakelocks held during battery drain issues reported by beta testers for Nvidia’s Shield Tablet. It registered with Android Power Management services and batterystats services to collect the logs and then parsed the relevant info and visualized the data using Kibana Elastic search tool. This gave a good view of real-world power usage as compared to controlled in-house power measurement and identify and resolve several issues involving battery drainage.
+
+  Systems Software Engineer                                                                                        Jan 2011 – Oct 2014
+   * System Software Development, Windows on Arm  - 1st Shield Tablet Win8 on Tegra 3 **
+-	Designed and developed HID miniport KMDF keyboard driver for matrix keyboard controller supporting upto maximum 8 simultaneous key presses with various hot key supports.
+-	Wrote HID KMDF Multi-Touch drivers supporting gestures for Windows-based tablets.
+-	Developed board independent power management driver (PMIC) having generic interrupt handling, SPB op-region support, Voltage scaling to enable DVFS through PEP, interaction with I2C and GPIO drivers to support register reads/writes through I2C and power management of switches.
+-	PIC for GPIO driver, driving and implementing Power Management requirements from the customer e.g. bank save/restore context during LP0 for Active/Idle Power Management. Support for ActiveBoth, level and long press interrupts.Enabling power management in GPIO driver.
+-	Modified a sample bus driver to enumerate Generic Mobile broadband Adaptor driver. This involved creating a PDO of MBIM device and using IRP preprocessing functions to handle USB IOCTLS for submitting various configuration URBS with data obtained from traces of off-soc functional modem.
+-	Understanding Hardware schematics, voltage stitching, power states and pin-muxing for T20 and T30 platforms
+-	Understanding ACPI specs to enable i2c and gpio resources for drivers and adding custom ASL methods.
+-	Experienced a shipping cycle of the software for WinRT release having 3 complete drivers (PMU, GPIO, 
+-	Keyboard) and Connected Standby wake source handling. 
+
+
+Qualcomm, San Diego, CA                                                                                           Intern, May 2010 – Aug 2010
+5775 Morehouse Drive, San Diego, CA 92121, USA    
+-	Worked with Target software team on i-cache miss reduction and CPU performance issues
+-	Collated .obj files for high CPU-usage functions in a .map file to reduce miss by 10%
+-	Studied CPU-profiling and timer callback functions
+
+
+Graduate Student Researcher, CyLab, CMU, PA                             Aug 2009 – May 2010,  Aug 2010 – Oct 2010
+4720 Forbes Avenue, 1st Floor, Room 1307, CyLab Biometrics Lab, Pittsburgh, PA-15213
+-	Observed and exploited redundancy in the sign of DCT coefficients for data hiding in images
+-	Proposed data hiding in DCT coefficients for robustness to channel attacks
+-	Applied Error-correcting codes to optimize for intra and inter-class hamming distance separation
+-	Applied SVM classifier to develop a multi-class Headgear and Eye-glasses Classifier
+-	Gender classification using beard and moustache image parts, 94% classification accuracy
+
+Newgen Software Technologies Ltd, Delhi                                                               Intern, May 2007 – June 2007
+E-44/13, Okhla Industrial Area Phase II, New Delhi - 110 020, India                
+-	Designed Convertors/Segregators to decrypt data for a Newgen report management system
+
+Dynamic Storage Allocator
+-	Programmed a Segregated free-list Allocator using First-fit Allocation method
+
+Buffer Overflow Attack
+-	Stack organization and IA-32 calling to launch butter overflow attack
+
+  Web Crawler
+-	Designed a Java based web crawler to extract queried product information from nextag.com
+PUBLICATIONS	1. N. Agrawal et al., “DCT Domain Message Embedding in Spread-Spectrum Steganography System”, DCC 2009.
+2. N. Agrawal and M. Savvides, “Biometric Data Hiding: A 3 Factor Approach to Verify Identify using a 
+Single Image Using Steganography, Encryption and Matching”, IEEE CVPR BW 2009. [Best Paper Award]
+
+SKILLS
+	 Programming Languages: C, C++, Python, Bash
+ Tools: Git, Kibana, Vi, Jira, MATLAB
+AWARDS  & HONORS 
+		 Received the Best Paper Award at IEEE CVPR Biometrics’ Workshop ’09.
+	 Received scholarship for being amongst the top 10% students in NSIT.
+	 Ranked 317 in 90000 applicants (among top 0.4%) in Combined Entrance Examination (CEE).
+			
+
